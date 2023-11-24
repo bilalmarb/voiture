@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin:0;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    width:100%;
+    height: 100vh;
+    background-image: url(../image/cart7.jpg);
+    background-size: cover;
+}
+header .nav1{
+    background:black;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+}
+header .nav1 ul {
+    margin-top: 7px;
+}
+header .nav1 ul li{
+    padding:10px 0px;
+    margin-left: 10px;
+    display: inline-block;
+}
+header .nav1 ul li a{
+    color:red;
+    border:red 1px solid;
+    padding:8px 20px;
+    margin-left: 10px;
+    transition: .7s ease;
+}
+header .nav1 ul li a:hover{
+    background:red;
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+}
+header .nav1 .logo{
+    font-size: 25px;
+    color:white;
+    margin-top: 10px;
+}
+header .nav1 .logo span{
+    color:red;
+    font-family: Cambria;
+}
+header .nav1 .logo:hover{
+    text-decoration: none;
+}
+header nav {
+background: firebrick;
+
+}
+.nav-link{
+    font-size: 18px;
+}
+.cont h1{
+    font-size: 90px;
+    color: white;
+}
+.cont p{
+    font-size: 30px;
+    color: white;
+}
+.btn1{
+    background-color: red;
+    color:white;
+    border: none;
+    padding:9px 27px;
+    transition: .5s ease;
+}
+.btn1:hover{
+    background-color: black;
+    color:red;
+    border:red 1px solid;
+}
+.sec{
+    width:100%;
+}
+.sec h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sec h1 span{
+    color:red;
+}
+.card-img img{
+    width:100%;
+}
+.sec .btn2{
+    margin-top: 1%;
+    background-color: red;
+    color:white;
+    border: none;
+    padding:8px 20px;
+    transition: .5s ease;
+    border:1px solid red;
+}
+.sec .btn2:hover{
+    border:1px solid red;
+    background:transparent;
+    color:red;
+}
+.sec1{
+    background:#333333;
+    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.sec1 h1{
+    padding:20px 0px;
+    text-align: center;
+    color:white;
+}
+.sec1 .cart{
+    margin-top: 4%;
+    width:330px;
+    padding:2%;
+    border: 1px solid white;
+    margin-left: 20px;
+    padding:1%;
+}
+
+.sec1 .cart h3{
+    color:white;
+    text-align: center;
+}
+.sec1 .cart h3 i{
+    padding-right: 10px;
+}
+.sec1 .cart p{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.836);
+}
+.img img{
+    width:400px;
+    padding-bottom: 3%;
+}
+.sec2{
+    width:100%;
+    padding:6% 0%;
+    overflow-x: hidden;
+}
+.cont1{
+    padding-bottom: 6%;
+}
+.cont1 h1{
+    border-left:red 4px solid;
+    padding:0px 6px;
+}
+.cont1 p{
+    line-height: 28px;
+    color: #333333;
+}
+.cont1 .btn3{
+    padding:6px 20px;
+    background:transparent;
+    border:red 3px solid;
+    transition:.4s ease;
+}
+.cont1 .btn3:hover{
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.num h1{
+    font-size: 30px;
+    border-left:5px solid red;
+    color:red;
+    line-height: 45px;
+    padding-left: 7%;
+}
+.num h1 span{
+    font-size: 23px;
+    margin-left: 10px;
+    color:black;
+}
+
+.card-mark img{
+    border: 2px double black;
+    transition: .4s ease;
+    
+}
+.card-mark img:hover{
+    border:1px solid black;
+}
+
+.sec3{
+    width:100%;
+    overflow-x: hidden;
+}
+.sec3 h1{
+    padding:5% 0%;
+    text-align: center;
+}
+.sec3 h1 span{
+    color:red;
+}
+.img-cl{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+}
+.cart-cl{
+    width:400px;
+    border: 1px solid black;
+    margin: 1%;
+    padding:25px;
+    box-shadow: 2px 2px 2px 2px rgb(153, 153, 153) ;
+}
+
+.sec4{
+    margin-top: 50px;
+    width:100%;
+}
+.sec4 h1{
+    text-align: center;
+    margin: 40px 0px;
+}
+.sec4 h1 span{
+    color:red;
+}
+.cart-serv{
+    width:250px;
+    padding:15px;
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.cart-serv i{
+    color:red;
+    font-size: 32px;
+}
+.cart-serv h2{
+    color:black;
+    font-size: 26px;
+    
+}
+
+.sec5{
+    width:100%;
+    padding:10% 0%;
+    overflow: hidden;
+}
+.sec5 h1{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 7%;
+}
+.sec5 h1 span{
+    color:Red;
+}
+
+footer{
+    width:100%;
+    background-color: #333333;
+    overflow: hidden;
+}
+footer h1{
+    color:white;
+    padding:4% 0%;
+}
+footer p{
+    color:white;
+}
+footer i{
+    padding:10px;
+}
+footer ul li{
+    list-style: none;
+    line-height: 30px;
+}
+footer ul li a{
+    color:aliceblue;
+    transition: .4s ease;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color:red;
+}
+
+.creat{
+    text-align: center;
+}
+.creat p{
+    color:white;
+}
+.creat p a{
+    color:red;
+    transition: .4s ease;
+    padding:5% 0%;
+}
+.creat p a:hover{
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+}
+.creat p span{
+    color: white;
+    font-size: 17px;
+    transition: .4s ease;
+}
+.creat p span:hover{
+    letter-spacing: 1px;
+}
